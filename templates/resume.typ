@@ -3,7 +3,7 @@
 
 // รับข้อมูลของภาษาหนึ่ง (locale) แล้ววาดออกมาเป็นเรซูเม่
 #let render(locale) = {
-  set page(paper: "a4", margin: (x: 0.7in, y: 0.6in))
+  set page(paper: "a4", margin: (x: 0.7in, y: 0.5in))
   set text(font: locale.fonts, size: locale.at("size", default: 10pt), lang: locale.code)
   set par(leading: locale.at("leading", default: 0.72em), spacing: 0.7em)
   set list(indent: 0.8em, body-indent: 0.5em, spacing: 0.6em)
@@ -16,6 +16,8 @@
       for r in s.records { entry(r) }
     } else if s.kind == "skills" {
       skill-grid(s.items)
+    } else if s.kind == "list" {
+      for b in s.items [- #b]
     }
   }
 }

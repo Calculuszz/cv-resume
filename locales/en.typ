@@ -17,7 +17,7 @@
           (
             title: [B.Eng. in Computer Engineering],
             org: [Chulalongkorn University],
-            dates: [Jun 2025 – Present],
+            dates: [Jun 2025 – Expected 2029],
             location: [Bangkok, Thailand],
           ),
           (
@@ -25,31 +25,32 @@
             org: [Ayutthaya Wittayalai School],
             dates: [May 2022 – May 2024],
             location: [Ayutthaya, Thailand],
+            body: [GPA: 3.98/4.00],
           ),
         ),
       ),
       (
+        kind: "list",
+        title: [Awards],
+        items: (
+          [*1st Place Nationwide, ฮักแม่ Hackathon* (2026, UpFound): 1,000,000 THB prize, 100,000 THB seed funding, and a study visit to Huawei in China.],
+          [*1st Place, Central Region & Top 10 National Finalist, AI Preneur* (2026, UpFound), among 137 teams nationwide.],
+          [*TED Fund Grant* (2025, Norwick): startup funding for a health insurance platform.],
+          [*Finalist* (2026): Startup Thailand League (Top 11), แฮค ฮัก รักษ์โลก Hackathon (Top 15), IdeaForge Hackathon (Top 4).],
+        ),
+      ),
+      (
         kind: "entries",
-        title: [Professional Experience],
+        title: [Experience],
         records: (
           (
             title: [CTO & Co-Founder],
             org: [UpFound Co., Ltd. (Startup)],
             dates: [2025 – Present],
             location: [Bangkok, Thailand],
-            body: [Lost-and-found system combining Edge AI on CCTV to detect items with a web platform for cataloging, search, and claims, cutting cost and liability for event organizers.],
+            body: [Lost-and-found system pairing Edge AI on CCTV with a web platform for item cataloging, search, and claims at events.],
             bullets: (
-              [Lead technical direction, owning architecture decisions and leading development of the Edge AI and full-stack web platform.],
-              [*Awards:* 1st place nationwide at ฮักแม่ Hackathon (1,000,000 THB prize, 100,000 THB seed funding, study visit to Huawei China); 1st in Central Region and Top 10 National Finalist at AI Preneur; finalist at Startup Thailand League, แฮค ฮัก รักษ์โลก, and IdeaForge.],
-            ),
-          ),
-                    (
-            title: [Full-Stack Developer & Co-Founder],
-            org: [Norwick Co., Ltd. (Startup)],
-            dates: [2025 – Present],
-            bullets: (
-              [Developed an innovative health insurance platform to eliminate claim delays and complexity while ensuring system transparency.],
-              [Engineered the end-to-end architecture (Frontend & Backend) for the issuance of Verifiable Credentials (VC).],
+              [Lead technical direction and architecture; build real-time item detection with YOLO on Jetson Nano (TensorRT) and lead full-stack web development.],
             ),
           ),
           (
@@ -58,30 +59,44 @@
             dates: [2026 – Present],
             location: [Bangkok, Thailand],
             bullets: (
-            [Own the backend of the Poll feature in the CU NEX app end to end, designing the architecture, database schema, and APIs for creating polls, voting, and viewing results.],
-            [Ensure reliable, duplicate-free voting under concurrent traffic and deploy the service to production, collaborating with frontend and KBTG engineers on integration.],
-          ),
+              [Own the backend of the Poll feature in the CU NEX app end to end, from architecture, database schema, and APIs to production deployment, ensuring duplicate-free voting under concurrent traffic.],
+            ),
           ),
           (
-  title: [Tech Lead & Project Manager],
-  org: [SHIVIDNI PHEEDU Halloween Event Website, Chulalongkorn University],
-  dates: [Sep 2026 – Oct 2026],
-  location: [Bangkok, Thailand],
-  body: [Event platform for a Halloween event co-hosted by three Chulalongkorn faculties, covering registration, QR tickets, Escape Room and Haunted House booking, and staff check-in dashboards.],
-bullets: (
-  [Led the team as tech lead and PM, owning planning, task assignment, code review, and coordination with organizers from kickoff to event day.],
-  [Delivered the event platform for 1,500+ registered attendees, handling surges of simultaneous Escape Room and Haunted House bookings with zero overbooking through database-level seat locking, plus QR check-in and live dashboards for staff.],
-),
-),
+            title: [Full-Stack Developer & Co-Founder],
+            org: [Norwick Co., Ltd. (Startup)],
+            dates: [2025],
+            location: [Bangkok, Thailand],
+            bullets: (
+              [Built a health insurance platform that makes claims faster and transparent, designing the end-to-end architecture for issuing Verifiable Credentials (VC).],
+            ),
+          ),
+        ),
+      ),
+      (
+        kind: "entries",
+        title: [Projects & Leadership],
+        records: (
+          (
+            title: [Tech Lead & Project Manager],
+            org: [SHIVIDNI PHEEDU Halloween Event Website, Chulalongkorn University],
+            dates: [Sep 2026 – Oct 2026],
+            location: [Bangkok, Thailand],
+            bullets: (
+              [Led the team as tech lead and PM, owning planning, task assignment, code review, and coordination with organizers from kickoff to event day.],
+              [Delivered registration, QR ticketing, and activity booking for 1,500+ attendees of a three-faculty event, handling booking surges with zero overbooking through database-level seat locking.],
+            ),
+          ),
         ),
       ),
       (
         kind: "skills",
         title: [Skills],
         items: (
-          (label: [Programming Languages], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL]),
-          (label: [Frameworks & Libraries], value: [NumPy, Pandas, Matplotlib, React, Next.js, Node.js, TailwindCSS, Nest.js]),
-          (label: [Tools & Software], value: [Git, Visual Studio Code, Figma, Edge AI, Arduino, Docker, MongoDB, PostgreSQL, AWS Cloud, Vercel, Supabase]),
+          (label: [Languages], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL]),
+          (label: [AI & Computer Vision], value: [PyTorch, YOLO, OpenCV, TensorRT, NumPy, Pandas]),
+          (label: [Web & Backend], value: [React, Next.js, Node.js, NestJS, TailwindCSS]),
+          (label: [Tools & Platforms], value: [Git, Docker, PostgreSQL, MongoDB, Supabase, AWS, Vercel, Jetson Nano]),
         ),
       ),
     ),

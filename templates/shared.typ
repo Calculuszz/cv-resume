@@ -14,11 +14,11 @@
 
 // หัวข้อหมวด + เส้นคั่น
 #let section(title) = {
-  v(1em)
+  v(0.85em)
   text(weight: "bold", title)
   v(0.1em)
   line(length: 100%, stroke: 0.5pt)
-  v(0.6em)
+  v(0.45em)
 }
 
 // หนึ่งรายการ: บรรทัดแรก ชื่อ (ซ้าย) / วันที่ (ขวา)      
@@ -34,13 +34,13 @@
   v(0.35em)
   if "body" in r { r.body }
   if "bullets" in r { for b in r.bullets [- #b] }
-  v(0.7em)
+  v(0.6em)
 }
 
 // ตารางทักษะ: หัวข้อตัวหนา (ซ้าย) / รายการ (ขวา)
 #let skill-grid(items) = grid(
   columns: (auto, 1fr),
   column-gutter: 1.2em,
-  row-gutter: 0.8em,
+  row-gutter: 0.6em,
   ..items.map(i => (strong(i.label), i.value)).flatten(),
 )
