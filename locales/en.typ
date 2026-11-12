@@ -32,10 +32,10 @@
         kind: "list",
         title: [Awards],
         items: (
-          [*ฮักแม่ Hackathon* – 1st place nationwide with UpFound (2026). Won a 1,000,000 THB prize and 100,000 THB in seed funding plus a study visit to Huawei in China.],
-          [*AI Preneur* – 1st place in the Central Region and Top 10 national finalist out of 137 teams with UpFound (2026).],
-          [*TED Fund* – Startup grant for Norwick's health insurance platform (2025).],
-          [*Other finalist placements (2026)* – Startup Thailand League (Top 11) · แฮค ฮัก รักษ์โลก Hackathon (Top 15) · IdeaForge Hackathon (Top 4)],
+          [*ฮักแม่ Hackathon:* 1st place nationwide with UpFound (2026). Won a 1,000,000 THB prize and 100,000 THB in seed funding plus a study visit to Huawei in China.],
+          [*AI Preneur:* 1st place in the Central Region and Top 10 national finalist out of 137 teams with UpFound (2026).],
+          [*TED Fund:* Startup grant for Norwick's health insurance platform (2025).],
+          [*Other finalist placements (2026):* Startup Thailand League (Top 11); แฮค ฮัก รักษ์โลก Hackathon (Top 15); IdeaForge Hackathon (Top 4)],
         ),
       ),
       (
