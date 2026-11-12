@@ -25,7 +25,6 @@
             org: [Ayutthaya Wittayalai School],
             dates: [May 2022 – May 2024],
             location: [Ayutthaya, Thailand],
-            body: [GPA: 3.98/4.00],
           ),
         ),
       ),
