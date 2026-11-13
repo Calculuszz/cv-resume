@@ -15,6 +15,11 @@
   resume: (
     sections: (
       (
+        kind: "text",
+        title: [เป้าหมาย],
+        body: [CTO ของ UpFound สตาร์ทอัป Edge AI ที่ชนะเลิศระดับประเทศ สร้างระบบตั้งแต่ computer vision บนอุปกรณ์ edge ไปจนถึงแพลตฟอร์ม full-stack กำลังมองหาโอกาสฝึกงานด้าน software engineering ปี 2027],
+      ),
+      (
         kind: "entries",
         title: [การศึกษา],
         records: (
@@ -23,12 +28,6 @@
             org: [จุฬาลงกรณ์มหาวิทยาลัย],
             dates: [มิ.ย. 2025 – คาดว่าจะจบ 2029],
             location: [กรุงเทพมหานคร],
-          ),
-          (
-            title: [มัธยมศึกษาตอนปลาย แผนการเรียนวิทยาศาสตร์–คณิตศาสตร์],
-            org: [โรงเรียนอยุธยาวิทยาลัย],
-            dates: [พ.ค. 2022 – พ.ค. 2024],
-            location: [พระนครศรีอยุธยา],
           ),
         ),
       ),
@@ -39,7 +38,7 @@
           [*ฮักแม่ Hackathon:* ชนะเลิศระดับประเทศกับ UpFound (2026) ได้เงินรางวัล 1,000,000 บาท ทุนตั้งต้น 100,000 บาท และศึกษาดูงานที่ Huawei ประเทศจีน],
           [*AI Preneur:* ชนะเลิศภาคกลางและเข้ารอบ 10 ทีมสุดท้ายระดับประเทศจาก 137 ทีมกับ UpFound (2026)],
           [*TED Fund:* ทุนสนับสนุนสตาร์ทอัปสำหรับแพลตฟอร์มประกันสุขภาพของ Norwick (2025)],
-          [*เข้ารอบสุดท้ายรายการอื่น (2026):* Startup Thailand League (Top 11); แฮค ฮัก รักษ์โลก Hackathon (Top 15); IdeaForge Hackathon (Top 4)],
+          [*เข้ารอบสุดท้ายรายการอื่น (2026):* Startup Thailand League (Top 11); IdeaForge Hackathon (Top 4)],
         ),
       ),
       (
@@ -96,7 +95,7 @@
         kind: "skills",
         title: [ทักษะ],
         items: (
-          (label: [ภาษาโปรแกรม], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL]),
+          (label: [ภาษาโปรแกรม], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL, Kotlin]),
           (label: [AI และ Computer Vision], value: [PyTorch, YOLO, OpenCV, TensorRT, NumPy, Pandas]),
           (label: [Web และ Backend], value: [React, Next.js, Node.js, NestJS, TailwindCSS]),
           (label: [เครื่องมือและแพลตฟอร์ม], value: [Git, Docker, PostgreSQL, MongoDB, Supabase, AWS, Vercel, Jetson Nano]),

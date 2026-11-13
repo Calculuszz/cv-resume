@@ -11,6 +11,11 @@
   resume: (
     sections: (
       (
+        kind: "text",
+        title: [Objective],
+        body: [CTO of UpFound, a national award-winning Edge AI startup, building systems from real-time computer vision on edge devices to full-stack platforms. Seeking a 2027 software engineering internship.],
+      ),
+      (
         kind: "entries",
         title: [Education],
         records: (
@@ -20,22 +25,16 @@
             dates: [Jun 2025 – Expected 2029],
             location: [Bangkok, Thailand],
           ),
-          (
-            title: [High School Math & Science Program],
-            org: [Ayutthaya Wittayalai School],
-            dates: [May 2022 – May 2024],
-            location: [Ayutthaya, Thailand],
-          ),
         ),
       ),
       (
         kind: "list",
         title: [Awards],
         items: (
-          [*ฮักแม่ Hackathon:* 1st place nationwide with UpFound (2026). Won a 1,000,000 THB prize and 100,000 THB in seed funding plus a study visit to Huawei in China.],
+          [*Hug Mae Hackathon:* 1st place nationwide with UpFound (2026). Won a 1,000,000 THB prize and 100,000 THB in seed funding plus a study visit to Huawei in China.],
           [*AI Preneur:* 1st place in the Central Region and Top 10 national finalist out of 137 teams with UpFound (2026).],
           [*TED Fund:* Startup grant for Norwick's health insurance platform (2025).],
-          [*Other finalist placements (2026):* Startup Thailand League (Top 11); แฮค ฮัก รักษ์โลก Hackathon (Top 15); IdeaForge Hackathon (Top 4)],
+          [*Other finalist placements (2026):* Startup Thailand League (Top 11); IdeaForge Hackathon (Top 4)],
         ),
       ),
       (
@@ -92,7 +91,7 @@
         kind: "skills",
         title: [Skills],
         items: (
-          (label: [Languages], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL]),
+          (label: [Languages], value: [C, C++, Python, Java, JavaScript, TypeScript, SQL, Kotlin]),
           (label: [AI & Computer Vision], value: [PyTorch, YOLO, OpenCV, TensorRT, NumPy, Pandas]),
           (label: [Web & Backend], value: [React, Next.js, Node.js, NestJS, TailwindCSS]),
           (label: [Tools & Platforms], value: [Git, Docker, PostgreSQL, MongoDB, Supabase, AWS, Vercel, Jetson Nano]),

@@ -16,6 +16,8 @@
       for r in s.records { entry(r) }
     } else if s.kind == "skills" {
       skill-grid(s.items)
+    } else if s.kind == "text" {
+      s.body
     } else if s.kind == "list" {
       for b in s.items [- #b]
     }
