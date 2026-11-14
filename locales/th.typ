@@ -15,11 +15,6 @@
   resume: (
     sections: (
       (
-        kind: "text",
-        title: [เป้าหมาย],
-        body: [CTO ของ UpFound สตาร์ทอัป Edge AI ที่ชนะเลิศระดับประเทศ สร้างระบบตั้งแต่ computer vision บนอุปกรณ์ edge ไปจนถึงแพลตฟอร์ม full-stack กำลังมองหาโอกาสฝึกงานด้าน software engineering ปี 2027],
-      ),
-      (
         kind: "entries",
         title: [การศึกษา],
         records: (
@@ -79,6 +74,15 @@
         kind: "entries",
         title: [โครงการและกิจกรรม],
         records: (
+          (
+            title: [Software Engineer ฝ่ายเทคโนโลยี],
+            org: [กรรมการนิสิตคณะวิศวกรรมศาสตร์ (กวศ.) จุฬาลงกรณ์มหาวิทยาลัย],
+            dates: [2026 – ปัจจุบัน],
+            location: [กรุงเทพมหานคร],
+            bullets: (
+              [พัฒนาซอฟต์แวร์สำหรับกิจกรรมทั้งภายในและภายนอกคณะ ให้นิสิตคณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย],
+            ),
+          ),
           (
             title: [Tech Lead และ Project Manager],
             org: [เว็บไซต์งาน SHIVIDNI PHEEDU Halloween จุฬาลงกรณ์มหาวิทยาลัย],

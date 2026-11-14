@@ -11,11 +11,6 @@
   resume: (
     sections: (
       (
-        kind: "text",
-        title: [Objective],
-        body: [CTO of UpFound, a national award-winning Edge AI startup, building systems from real-time computer vision on edge devices to full-stack platforms. Seeking a 2027 software engineering internship.],
-      ),
-      (
         kind: "entries",
         title: [Education],
         records: (
@@ -75,6 +70,15 @@
         kind: "entries",
         title: [Projects & Leadership],
         records: (
+          (
+            title: [Software Engineer, Technology Division],
+            org: [Engineering Student Committee (ESC), Chulalongkorn University],
+            dates: [2026 – Present],
+            location: [Bangkok, Thailand],
+            bullets: (
+              [Build software for activities inside and outside the faculty for Chulalongkorn University engineering students.],
+            ),
+          ),
           (
             title: [Tech Lead & Project Manager],
             org: [SHIVIDNI PHEEDU Halloween Event Website, Chulalongkorn University],
