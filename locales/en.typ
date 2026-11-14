@@ -71,7 +71,7 @@
         title: [Projects & Leadership],
         records: (
           (
-            title: [Software Engineer, Technology Division],
+            title: [Software Engineer, Technology Department],
             org: [Engineering Student Committee (ESC), Chulalongkorn University],
             dates: [2026 – Present],
             location: [Bangkok, Thailand],
