@@ -8,7 +8,7 @@
   set par(leading: locale.at("leading", default: 0.72em), spacing: 0.7em)
   set list(indent: 0.8em, body-indent: 0.5em, spacing: 0.6em)
 
-  header(locale.person, contact)
+  header(locale.person, contact, labels: locale.at("labels", default: (email: [Email], phone: [Phone])))
 
   for s in locale.resume.sections {
     section(s.title)

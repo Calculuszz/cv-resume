@@ -2,7 +2,7 @@
 #let separator = [ #h(0.2em)|#h(0.2em) ]
 
 // ส่วนหัว: ชื่อ + ข้อมูลติดต่อ
-#let header(person, contact) = align(center)[
+#let header(person, contact, labels: (email: [Email], phone: [Phone])) = align(center)[
   #text(size: 16pt, weight: "bold")[#person.name]
   // ตำแหน่งที่สมัคร (ใส่หรือไม่ใส่ก็ได้) เช่น headline: [Software Engineer]
   #if "headline" in person [
@@ -11,10 +11,10 @@
   ]
   #v(0.3em)
   #person.location #separator
-  #link("mailto:" + contact.email)[#contact.email] #separator
-  #link("tel:" + contact.phone)[#contact.phone]
+  #labels.email: #link("mailto:" + contact.email)[#contact.email] #separator
+  #labels.phone: #link("tel:" + contact.phone)[#contact.phone]
   #linebreak()
-  #contact.links.map(l => link(l.url)[#l.label]).join(separator)
+  #contact.links.map(l => [#l.name: #link(l.url)[#l.label]]).join(separator)
 ]
 
 // หัวข้อหมวด + เส้นคั่น
