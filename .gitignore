@@ -2,3 +2,9 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Company-specific versions (kept local)
+*-agoda.*
+
+# Stray exports from locale files
+locales/*.pdf
