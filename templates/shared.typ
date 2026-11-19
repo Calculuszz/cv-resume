@@ -11,10 +11,10 @@
   ]
   #v(0.3em)
   #person.location #separator
-  #labels.email: #link("mailto:" + contact.email)[#contact.email] #separator
-  #labels.phone: #link("tel:" + contact.phone)[#contact.phone]
+  #strong[#labels.email:] #link("mailto:" + contact.email)[#contact.email] #separator
+  #strong[#labels.phone:] #link("tel:" + contact.phone)[#contact.phone]
   #linebreak()
-  #contact.links.map(l => [#l.name: #link(l.url)[#l.label]]).join(separator)
+  #contact.links.map(l => [#strong[#l.name:] #link(l.url)[#l.label]]).join(separator)
 ]
 
 // หัวข้อหมวด + เส้นคั่น
