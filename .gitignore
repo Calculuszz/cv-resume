@@ -5,6 +5,7 @@ desktop.ini
 
 # Company-specific versions (kept local)
 *-agoda.*
+*-bitkub.*
 
 # Stray exports from locale files
 locales/*.pdf
