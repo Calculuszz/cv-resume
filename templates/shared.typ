@@ -4,6 +4,11 @@
 // ส่วนหัว: ชื่อ + ข้อมูลติดต่อ
 #let header(person, contact) = align(center)[
   #text(size: 16pt, weight: "bold")[#person.name]
+  // ตำแหน่งที่สมัคร (ใส่หรือไม่ใส่ก็ได้) เช่น headline: [Software Engineer]
+  #if "headline" in person [
+    #v(-0.2em)
+    #text(size: 11pt)[#person.headline]
+  ]
   #v(0.3em)
   #person.location #separator
   #link("mailto:" + contact.email)[#contact.email] #separator
