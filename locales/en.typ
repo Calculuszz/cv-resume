@@ -52,7 +52,7 @@
             dates: [2026 – Present],
             location: [Bangkok, Thailand],
             bullets: (
-              [Own the backend of the Poll feature in the CU NEX app end to end, from architecture, database schema, and APIs to production deployment, ensuring duplicate-free voting under concurrent traffic.],
+              [Build the backend of the Poll feature in the CU NEX app end to end, from architecture, database schema, and APIs to production deployment, ensuring duplicate-free voting under concurrent traffic.],
             ),
           ),
           (
@@ -85,7 +85,7 @@
             dates: [Sep 2026 – Oct 2026],
             location: [Bangkok, Thailand],
             bullets: (
-              [Led the team as tech lead and PM, owning planning, task assignment, code review, and coordination with organizers from kickoff to event day.],
+              [Led a 15-person team as tech lead and PM, owning planning, task assignment, code review, and coordination with organizers from kickoff to event day.],
               [Delivered registration, QR ticketing, and activity booking for 1,500+ attendees of a three-faculty event, handling booking surges with zero overbooking through database-level seat locking.],
             ),
           ),
