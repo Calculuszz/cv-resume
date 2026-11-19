@@ -37,8 +37,8 @@
         title: [Experience],
         records: (
           (
-            title: [CTO & Co-Founder],
-            org: [UpFound Co., Ltd. (Startup)],
+            title: [Technical Lead & Co-Founder],
+            org: [UpFound (Early-stage Startup)],
             dates: [2025 – Present],
             location: [Bangkok, Thailand],
             body: [Lost-and-found system pairing Edge AI on CCTV with a web platform for item cataloging, search, and claims at events.],
